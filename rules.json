@@ -1,0 +1,30 @@
+[
+  {
+    "id": "mass_rename",
+    "field": "mass_rename",
+    "equals": true,
+    "score": 60,
+    "reason": "mass rename"
+  },
+  {
+    "id": "backup_failure",
+    "field": "backup_status",
+    "equals": "failed",
+    "score": 35,
+    "reason": "backup failure"
+  },
+  {
+    "id": "shadow_delete",
+    "field": "shadow_copies_deleted",
+    "equals": true,
+    "score": 65,
+    "reason": "shadow delete"
+  },
+  {
+    "id": "high_entropy",
+    "field": "entropy_alert",
+    "equals": true,
+    "score": 30,
+    "reason": "high entropy"
+  }
+]

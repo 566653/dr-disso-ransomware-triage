@@ -1,0 +1,11 @@
+[
+  {
+    "id": "synthetic-001",
+    "mass_rename": true,
+    "backup_status": "failed"
+  },
+  {
+    "id": "synthetic-002",
+    "note": "benign"
+  }
+]
